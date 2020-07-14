@@ -14,7 +14,7 @@ function timer(){
         secheading.innerHTML=sec;
         msec=0;
     }
-    else if(sec>=3){
+    else if(sec>=60){
         min++;
         sec=0;
         minheading.innerHTML=min;

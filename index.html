@@ -9,10 +9,11 @@
             padding-top: 140px;
             text-align: center;
             background: linear-gradient(to left top, rgb(24, 73, 129), rgb(132, 189, 255)) fixed;
+            
         }
-        #msec,#sec,#min{
+        #msec,#sec,#min,.pct{
             display:inline-block;
-            width: 70px;
+            width: 50px;
             font-weight: 100;
             font-size: 60px;
             color: white;
@@ -22,15 +23,17 @@
             color: white;
         }
         button{
+            font-weight: bold;
             border-radius: 20px;
             background-color: white;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 5px;
-            padding-top: 5px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 7px;
+            padding-top: 7px;
             border: none;
             outline: none;
-            color: rgb(43, 43, 146);
+            color: rgb(45, 99, 218);
+            margin: 2px;
         }
         hr{
             width: 300px;
@@ -45,7 +48,9 @@
     
     <diV>
         <h1 id="min">0</h1>
+        <h1 class="pct">:</h1>
         <h1 id="sec">0</h1>
+        <h1 class="pct">:</h1>
         <h1 id="msec">0</h1>
         
         
